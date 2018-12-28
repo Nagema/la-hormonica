@@ -25,7 +25,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     border-radius: 50%;
     border: double 1px black;
     background-color: gold;
-    background-image: url("/img/hormonicaface.png");
+    background-image: url("../img/hormonicaface.png");
     background-position: 7%;
     background-repeat: no-repeat;
     background-size: 220px;
@@ -78,7 +78,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
      position: absolute;
      top: 27%;
      left: 13%;
-     background-image: url("/img/vintage-glasses1.png");
+     background-image: url("../img/vintage-glasses1.png");
      background-size: 155px;
      background-repeat: no-repeat;
      transform: rotate(-8deg);
