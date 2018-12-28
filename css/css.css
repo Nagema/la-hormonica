@@ -1,0 +1,199 @@
+@import url("https://use.typekit.net/lro1wvz.css");@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Luckiest+Guy');@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Luckiest+Guy|Neucha');
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+:root{
+    --logo-size: 350px;
+}
+
+.logo-wrapper{
+    width: var(--logo-size);
+    height: var(--logo-size);
+    border: #555 double 1px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+
+}
+.face {
+    width: calc(var(--logo-size) - 20px); 
+    height: calc(var(--logo-size) - 20px);
+    border-radius: 50%;
+    border: double 1px black;
+    background-color: gold;
+    background-image: url("/img/hormonicaface.png");
+    background-position: 7%;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    animation: hormonica 1s forwards infinite alternate;
+    overflow:  hidden;
+   
+    
+ }
+
+
+ @keyframes hormonica {
+    0% {
+
+        /* background-color: rgb(240, 128, 128); */
+        transform: translate(-50%, -50%) scale(1.005) rotate(0.5deg);
+        
+    }
+    20%{ 
+       
+        /* background-color: #F08080; */
+       
+    }
+    40%{
+         
+        /* background-color:white; */
+    }
+    60%{
+        
+        /* background-color: #FFA500; */
+    }
+    80%{ 
+        
+        /* background-color: #D8BFD8; */
+    }
+    100%{ 
+        
+        /* background-color:#66CDAA; */
+    }
+
+ }
+ 
+
+ .glasses {
+    width: 153px;
+    height: 69px;
+     position: absolute;
+     top: 27%;
+     left: 13%;
+     background-image: url("/img/vintage-glasses1.png");
+     background-size: 155px;
+     background-repeat: no-repeat;
+     transform: rotate(-8deg);
+     animation: gafas ease-in 2s 2s infinite alternate-reverse forwards;
+    
+     
+ }
+ @keyframes gafas{
+    0% {
+
+        
+        transform: rotate(-2deg); 
+        
+        
+    }
+    20%{ 
+       
+        
+        transform: rotate(1deg);
+        
+        
+    }
+    40%{
+         
+        
+        transform:  rotate(-1deg);
+      
+    }
+    60%{
+        
+        
+        transform:  rotate(2deg);
+        
+    }
+    80%{ 
+        
+        
+        transform:   rotate(-3deg);
+        
+       
+    }
+    100%{ 
+        
+       
+        transform:   rotate(4deg);
+        
+        
+    }
+
+ }
+ .name {
+    width: 80px;
+    height: 200px;
+    font-size: 36px;
+    font-family: gochi hand;
+    font-weight: lighter;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    color:black;
+    word-spacing: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    padding-bottom: none;
+    position: absolute;
+    top: 54%;
+    left: 70.5%;
+    transform: translate(-50%, -50%);
+    animation: hormonicanombre 1s forwards alternate ; 
+   text-transform: capitalize;
+
+    
+}  
+
+@keyframes hormonicanombre {
+    0% {
+
+        
+        transform: translate(-50%, -50%) scale(1.1)   ; 
+       
+        
+    }
+    20%{ 
+       
+        
+        transform: translate(-50%, -50%) scale(1)  ;
+        
+        
+    }
+    40%{
+         
+        
+        transform: translate(-50%, -50%) scale(1.1) ;
+        
+    }
+    60%{
+        
+        
+        transform: translate(-50%, -50%)  scale(1);
+        
+    }
+    80%{ 
+        
+        
+        transform: translate(-50%, -50%) scale(1.1) ;
+        
+    }
+    100%{ 
+        
+       
+        transform: translate(-50%, -50%)  scale(1.1);
+        
+        
+        
+        
+    }
+
+ }
